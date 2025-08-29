@@ -1,3 +1,5 @@
+#Para exportar datos ejecutar en consola...
+#scrapy crawl world_population -o world_population.csv
 import scrapy
 
 class WorldPopulationSpider(scrapy.Spider):
